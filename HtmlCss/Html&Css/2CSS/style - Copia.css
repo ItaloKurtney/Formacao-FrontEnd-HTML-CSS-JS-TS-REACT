@@ -1,0 +1,362 @@
+/* 4 Externo */
+body{
+    padding-bottom: 500px;
+}
+h3{
+    color: green;
+}
+/*///////////////////////////////////////////////////////////*/
+/* Classes */
+
+.paragrafo{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+/*///////////////////////////////////////////////////////////*/
+/* IDS */
+
+#titulo-exclusivo{
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+}
+/*///////////////////////////////////////////////////////////*/
+/* Ordem de regras */
+
+.titulo{
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+/*///////////////////////////////////////////////////////////*/
+/*Nome de Cor */
+.color-name{
+    color: green;
+}
+/* Cores Hexadecimais */
+.hex{
+    color:#3242f3
+}
+/*RGB*/
+.rgb{
+    color:rgb(255, 0, 0)
+}
+.rgb2{
+    color:rgb(255, 340, 04)
+}
+
+/*RGBa*/
+.rgba{
+    color: rgba(200, 13, 13, 0.6);
+}
+/*///////////////////////////////////////////////////////////*/
+/*Backgroud color*/
+
+.bg{
+    background-color: pink;
+}
+
+/*Backgroud Image*/
+.BgImg{
+    background-image: url(/1HTML/img/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1600px;
+    padding: 50px;
+    font-size: 100px;
+    color: aliceblue;
+}
+/*///////////////////////////////////////////////////////////*/
+/*Altura e largura*/
+.alturaelargura{
+    height: 200px;
+    width: 400px;
+    background-color: #3242f3;
+}
+.alturaelargura2{
+    height: 200px;
+    background-color: aqua;
+}
+
+/*Com padding e sem padding*/
+.sempadding{
+    background-color: black;
+    color: azure;
+}
+.compadding{
+    background-color: rgb(255, 0, 0);
+    padding: 25px;
+}
+
+/*Com padding INDIVIDUAL*/
+.paddingIndividuais{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 500px;
+    padding-bottom: 40px;
+}
+
+/*Com SHORTHand padding Top,Right,Bottom,Left*/
+.paddingShortHands{
+    background-color: black;
+    color: white;
+    padding: 50px 25px 50px 25px;
+}
+.paddingShortHands2{
+    background-color: brown;
+    color: wheat;
+    padding: 50px 25px;
+    text-align: center;
+}
+
+/*Com BORDER BOX E SEM BORDERBOX*/
+.semBorderBox{
+    background-color: #444;
+    color: aliceblue;
+    width: 400px;
+    padding: 50px;
+}
+.comBorderBox{
+    background-color: #444;
+    color: rgb(2, 118, 219);
+    width: 400px;
+    padding : 50px;
+    box-sizing: border-box;
+}
+/*BORDAS*/
+.borda{
+    border: 5px solid red;
+    padding: 10px 10px;
+}
+.borda2{
+    border: 5px dotted green;
+    padding:20px 20px;
+}
+/*BORDAS com lados INDIVIDUAIS*/
+.bordaEsquerda{
+    border-left:10px solid red;
+    background-color: black;
+    color: aliceblue;
+}
+.bordaEmBaixo{
+    border-bottom: 2px double rebeccapurple;
+    background-color: #444;
+    padding: 20px;
+}
+
+/*BORDAS ARREDONDADA*/
+.pArredondado{
+    border: 4px solid rgb(255, 0, 0);
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+}
+.pArredondado2{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/*MARGINS, e com ShortHands*/
+.margem{
+    background-color: rgb(0, 63, 134);
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+}
+.margemTop{
+    background-color: rgb(0, 63, 134);
+    color: white;
+    margin-top: 30px;
+}
+.margemShortHand{
+    background-color: rgb(0, 63, 134);
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 34px 49px 500px
+}
+/*UNINDO TODAS AS PROPRIEDADES DO BOX MODELS*/
+.boxModelUnidos{
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid rgb(255, 340, 04);
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+}
+/*///////////////////////////////////////////////////////////*/
+/* DESAFIO 6*/
+#Desafio6{
+
+    border: 3px solid red;
+    border-radius: 20px;
+    margin: 50px;
+    height: 100px;
+    outline: 3px solid #3242f3;
+    padding: 50px;
+    width: 300px;
+    background-color: aqua;
+}
+.tituloDesafio6{
+    background-color: rgb(235, 235, 50);
+    color: black;
+    border: none;
+}
+
+/*///////////////////////////////////////////////////////////*/
+/*ALINHAMENTO DE TEXTOS*/
+.textoAlinhado{
+    text-align: right;
+    
+}
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 4px solid blue;
+}
+
+/*DECORAÇÃO DE TEXTOS*/
+.underline{
+    text-decoration: underline;
+}
+.euTenhoRisco{
+    text-decoration: line-through;
+}
+.removerLinha{
+    text-decoration: none;
+    color:rgb(0, 63, 134);
+}
+
+/*TRANFORMAÇÃO DE TEXTOS*/
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+/*ESPAÇAMENTO DE LETRAS e FONTES */
+.espacamento{
+    letter-spacing: 4px;
+    font-family: monospace;
+}
+/*ESTILO DE FONTE*/
+.italico{
+    font-style: italic;
+}
+.oblico{
+    font-style: oblique;
+}
+/*FONT WEIGHT e FONT SIZE*/
+.magro{
+    font-weight: 100;
+    font-size: 20px;
+}
+.bold{
+    font-weight: 600;
+    font-size: 25px;
+}
+.bolder{
+    font-weight: 1000;
+    font-size: 30px;
+}
+/* DISPLAY */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+.block{
+    background-color: #3242f3;
+    display: block;
+    margin: 10px;
+}
+/* DISPLAY ESCONDER ELEMENTOS*/
+.invisivel{
+    display: none;
+}
+/* POSIÇÂO DOS ELEMENTOS STATIC*/
+.posicao-static{
+    position: static;
+    background-color: #4f8;
+    color: #444;
+    width: 50px;
+    height: 50px;
+}
+/* POSIÇÂO DOS ELEMENTOS RELATIVA*/
+.posicao-relative{
+    position: relative;
+    background-color: rgb(102, 110, 29);
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    top: 100px;
+    left: 40px;
+}
+/* POSIÇÂO DOS ELEMENTOS ABSOLUTE*/
+.posicao-absolute{
+    position: absolute;
+    background-color: rgb(211, 81, 29);
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    top: 2px;
+    right: 10px;
+}
+/* POSIÇÂO DOS ELEMENTOS RELATIVO ABSOLUTE*/
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+.absolute1,
+.absolute2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(221, 187, 143);
+    position: absolute;
+}
+.absolute1{
+    left: 10px;
+    top: 10px;
+    margin: 10px;
+    color: #3242f3;
+}
+.absolute2{
+    right: 10px;
+    bottom: 10px;
+    margin: 10px;
+    color: #3242f3;
+}
+
+/* POSIÇÂO DOS ELEMENTOS FIXED*/
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #444;
+    color: #4f8;
+    border: 1px solid rgb(255, 0, 0);
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+/* POSIÇÂO DOS ELEMENTOS STICKY*/
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: #444;
+    color: #4f8;
+    border: 1px solid rgb(255, 0, 0);
+    position: sticky;
+    top: 10px;
+}

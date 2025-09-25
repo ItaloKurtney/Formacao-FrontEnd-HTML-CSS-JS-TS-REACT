@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(240, 232, 232);
+}
+.container{
+    background-color: white;
+    margin: 50px;
+    max-width: 1100px;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+.titulo1{
+    font-family: monospace;
+    position: center;
+    font-size: 45px;
+    padding: 5px;
+    height: 10px;
+    text-align: center;
+}
+.pInicial{
+    font-size: 20px;
+    font-style: italic;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.img1{
+    width: 1000px;
+    padding: 5px;
+
+}
+.desc{
+    text-align: center;
+}
+.biografia{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ff0000;
+    border-bottom: 1px dashed #ff0000;
+    font-family: monospace;
+    font-size: 17px;
+}
+.container-frase{
+    padding: 25px;
+    margin: 25px;
+    background-color: rgb(247, 112, 112);
+    border: 5px solid;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+.frase-italic{
+    font-style: italic;
+}
+.listas{
+    padding: 25px 0;
+    margin: 25px 0;
+    font-family: monospace;
+    font-size: 17px;
+    border-top: 1px dashed #ff0000;
+    border-bottom: 1px dashed #ff0000;
+}
+.listas li{
+    height: 30px;
+}
+.container-frase2{
+    padding: 25px;
+    margin: 25px;
+    background-color: rgb(247, 112, 112);
+    border: 5px solid;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+.container-frase2 h2{
+    font-family: monospace;
+}
