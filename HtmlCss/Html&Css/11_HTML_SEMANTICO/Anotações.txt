@@ -1,0 +1,6 @@
+Oque é HTML SEMANTICO?
+Tags de HTML que dão significado ao elemento.
+Ajuda a estruturar melhor o site.
+Facilita a manutenção do projeto.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
