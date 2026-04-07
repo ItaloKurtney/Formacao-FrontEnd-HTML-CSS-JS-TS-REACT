@@ -1,0 +1,16 @@
+O que é JavaScript?
+Linguagem de programação de alto nível, tendo sua principal função deixar a pagina web viva(DOM(Document Object Movel)) adicionando comportamentos através de eventos
+JavaScript é casa sensitive (Variavel (NOME e nome) são diferentes para a linguagem)
+Usado tambem para realizar calculos, manipulação e validação de dados.
+Pricipais bibliotecas de front-end são REACT VUE ANGULAR ETC...
+
+///////////////////////////////////////////////////////////////
+
+Tipos de dados mais comuns.
+NUMBER 
+STRING 
+BOOLEAN 
+EMPTY VALUES
+OBJECT 
+
+NUMBER: TODOS OS NUMEROS SÃO CONSIDERADOS NUMBER, SEJAM INTEIROS, NEGATIVOS OU FLUTUANTES

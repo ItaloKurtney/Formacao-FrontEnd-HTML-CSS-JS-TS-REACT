@@ -1,0 +1,1 @@
+console.log("Testando o JS atraves de um arquivo externo");
